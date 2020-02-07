@@ -1,9 +1,13 @@
 import React from 'react';
 import Header from './Components/Header'
+import CalculaJuros from './Pages/CalculaJuros'
 
 function App() {
   return (
-    <Header/>
+    <div>
+      <Header />
+      <CalculaJuros />
+    </div>
   );
 }
 
